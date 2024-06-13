@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+}
+.logo {
+  height: 50px;
+  width: 80%;
+}
+
+.navlogo {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.addf {
+  color: #cccccc;
+  margin-left: 38px;
+  font-size: 0.8rem;
+}
+
+.adds {
+  font-size: 1rem;
+  margin-right: px;
+}
+.navicon {
+  display: flex;
+  justify-content: center;
+}
+.navadd {
+  align-items: center;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 2px solid white;
+}
+
+.navsearch {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 620px;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+.selectsearch {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.inputsearch {
+  width: 100%;
+  font-size: large;
+  border: none;
+}
+.searchicon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #0f1111;
+}
+.usalogo {
+  display: flex;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+.insecond {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.navsecond {
+  height: 50px;
+  width: 100%;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.bars {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+.anchor {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  font-weight: 600;
+}
+
+.nav-all {
+  display: flex;
+}
+.hero-sec {
+  background-image: url("images/heroimage.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+}
+.sec-child1 {
+  height: 100px;
+  width: 100px;
+  background-color: whitesmoke;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.categories .sec-child1 {
+  width: 22%;
+  height: 300px;
+  background-color: tan;
+}
+.child1-para {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+}
+.ac {
+  height: 95px;
+  padding: 10px;
+}
+
+.ref {
+  height: 95px;
+  padding: 10px;
+  /* padding-left: 31px; */
+}
+
+.flexible {
+  display: flex;
+  justify-content: space-around;
+}
+.sec-child1 p {
+  text-align: center;
+}
+
+.flexi {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 9px;
+}
+
+.microwave {
+  height: 90px;
+}
+
+.wm-child {
+  height: 90px;
+}
+
+.sec-anchor {
+  text-decoration: none;
+}
+
+.child2-para {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cleaning {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.imgcleaning {
+  height: 90px;
+}
+
+.imgtyre {
+  height: 90px;
+}
+
+.cleaning-child {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.helm {
+  height: 90px;
+}
+
+.vacum {
+  height: 90px;
+}
+
+.child3-para {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.decors {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+
+.deco-child {
+  height: 90px;
+}
+
+.deco--child {
+  height: 90px;
+}
+
+.child4-para {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.housedecors {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.toy {
+  height: 90px;
+}
+
+.fas {
+  height: 90px;
+}
+
+.baby {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.diapers {
+  height: 90px;
+}
+
+.bath {
+  height: 90px;
+}
+
+.diapers-child {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.more {
+  height: 90px;
+}
+
+.games {
+  height: 90px;
+}
+
+.longwidth {
+  background-color: black;
+  margin: 20px 20px;
+  height: 320px;
+  padding: 10px 10px 10px 24px;
+}
+.category {
+  background-size: cover;
+  margin-top: 25px;
+}
+.classic {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+
+.down {
+  margin-top: 10px;
+}

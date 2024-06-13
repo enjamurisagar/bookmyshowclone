@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+  justify-content: center;
+}
+.section {
+  display: flex;
+  gap: 500px;
+}
+
+.div {
+  width: 200px;
+  height: 500px;
+  background-color: bisque;
+  padding: 1px;
+  border-radius: 15px;
+  border-style: double;
+}
+
+.sec {
+  width: 200px;
+  height: 500px;
+  background-color: bisque;
+  border-radius: 15px;
+  padding: 1px;
+  border-style: double;
+  margin-right: 200px;
+}

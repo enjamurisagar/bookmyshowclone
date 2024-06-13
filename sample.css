@@ -1,0 +1,23 @@
+div {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 5px solid black;
+  transition-duration: 2s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+div:hover {
+  background-color: white;
+  transform: rotate(360deg);
+}
+div:active {
+  transform: skew(30deg);
+  font-size: 43px;
+  background-color: blue;
+}
+div:focus {
+  background-color: brown;
+}
